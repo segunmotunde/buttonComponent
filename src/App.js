@@ -1,15 +1,11 @@
 import React from "react";
-import Sectioning from "./components/Sectioning";
 import "./App.css";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div>
-      <Sectioning type={["default", "outline", "text"]} />
-      <Sectioning type={["disabled", "text_disabled"]} />
-      <Sectioning type={["left", "right"]} cart />
-      <Sectioning type={["sm", "md", "lg"]} />.
-      <Sectioning type={["default", "primary", "secondary", "danger"]} />
+      <Main />
     </div>
   );
 }
